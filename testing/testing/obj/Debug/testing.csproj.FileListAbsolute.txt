@@ -1,0 +1,8 @@
+C:\Users\kotpr\source\repos\testing\testing\obj\Debug\testing.csprojAssemblyReference.cache
+C:\Users\kotpr\source\repos\testing\testing\obj\Debug\testing.csproj.ResolveComReference.cache
+C:\Users\kotpr\source\repos\testing\testing\obj\Debug\testing.csproj.CoreCompileInputs.cache
+C:\Users\kotpr\source\repos\testing\testing\bin\Debug\testing.exe.config
+C:\Users\kotpr\source\repos\testing\testing\bin\Debug\testing.exe
+C:\Users\kotpr\source\repos\testing\testing\bin\Debug\testing.pdb
+C:\Users\kotpr\source\repos\testing\testing\obj\Debug\testing.exe
+C:\Users\kotpr\source\repos\testing\testing\obj\Debug\testing.pdb

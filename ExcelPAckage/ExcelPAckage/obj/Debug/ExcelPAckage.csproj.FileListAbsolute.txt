@@ -1,0 +1,8 @@
+C:\Users\kotpr\source\repos\ExcelPAckage\ExcelPAckage\bin\Debug\ExcelPAckage.exe.config
+C:\Users\kotpr\source\repos\ExcelPAckage\ExcelPAckage\bin\Debug\ExcelPAckage.exe
+C:\Users\kotpr\source\repos\ExcelPAckage\ExcelPAckage\bin\Debug\ExcelPAckage.pdb
+C:\Users\kotpr\source\repos\ExcelPAckage\ExcelPAckage\obj\Debug\ExcelPAckage.csprojAssemblyReference.cache
+C:\Users\kotpr\source\repos\ExcelPAckage\ExcelPAckage\obj\Debug\ExcelPAckage.csproj.ResolveComReference.cache
+C:\Users\kotpr\source\repos\ExcelPAckage\ExcelPAckage\obj\Debug\ExcelPAckage.csproj.CoreCompileInputs.cache
+C:\Users\kotpr\source\repos\ExcelPAckage\ExcelPAckage\obj\Debug\ExcelPAckage.exe
+C:\Users\kotpr\source\repos\ExcelPAckage\ExcelPAckage\obj\Debug\ExcelPAckage.pdb

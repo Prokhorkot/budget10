@@ -1,0 +1,117 @@
+﻿<UserControl x:Class="GAIExam.MVVM.View.HelloWiew"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GAIExam.MVVM.View"
+             xmlns:viewModel="clr-namespace:GAIExam.MVVM.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+
+
+
+
+
+        <Grid.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="FontFamily" Value="Igra Sans"/>
+                <Setter Property="TextAlignment" Value="Center"/>
+                <Setter Property="Foreground" Value="Black"/>
+            </Style>
+
+        </Grid.Resources>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.7*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel
+                        Background="#d7e3fc">
+
+
+
+            <StackPanel Orientation="Horizontal"
+                            Margin="0,40,0,0">
+
+                <Image Source="C:\Users\kotpr\source\repos\GAIExam\GAIExam\Images\LeaderOfDigital.png" Height="70"
+                           Margin="20,0,0,0"
+                           RenderOptions.BitmapScalingMode="Fant"/>
+
+                <TextBlock Text="Бюджет"
+                           FontSize="30"
+                           TextWrapping="Wrap"
+                           Margin="15,0,0,0"/>
+            </StackPanel>
+            <TextBlock
+                Text="Программа для анализа бюджета субъекта РФ"
+                TextWrapping="Wrap" 
+                TextAlignment="Left"
+                Margin="44,20,34.333,0"
+                FontSize="20"
+                />
+
+            <TextBlock Height="40"/>
+
+            <TextBox Style="{StaticResource ModernTextBox}"
+                     Width="300"
+                     Height="40"
+                     Margin="10"
+                     x:Name="PathTB"
+                     Foreground="DarkGreen"
+                     FontSize="14">
+
+            </TextBox>
+
+            <StackPanel Orientation="Horizontal"
+                            Margin="0,20,0,0"
+                            HorizontalAlignment="Center">
+
+                <Button Content="Закрыть"
+                            Foreground="Black"
+                            FontSize="15"
+                            Margin="10"
+                        x:Name="Closebtn"
+                            Style="{StaticResource RefuseBtn}"
+                            Click="Closebtn_Click">
+
+
+
+                </Button>
+
+                <Button Content="Обработать"
+                            Foreground="White"
+                            FontSize="15"
+                            Margin="10"
+                        x:Name="AnalizeBtn"
+                            Style="{StaticResource ApplyBtn}"
+                        Click="AnalizeBtn_Click">
+                </Button>
+
+            </StackPanel>
+
+            <TextBlock Style="{StaticResource Register_Blk}"
+                     />
+            <TextBox Height="23" TextWrapping="Wrap" Text="TextBox" x:Name="temp"/>
+
+
+
+        </StackPanel>
+
+        <Image Source="C:\Users\kotpr\source\repos\GAIExam\GAIExam\Images\Carelia.jpg" Grid.Column="1"
+                   Margin="228.667,94,-63,-12"/>
+        <TextBlock Grid.Row="1" Grid.Column="1"
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Left"
+                       TextAlignment="Left"
+                       Text="Прогнозируй
+                   будущее"
+                       FontSize="35"
+                       TextWrapping="Wrap"
+                       Margin="30,50,0,0"
+                       Foreground="#c4c6c7">
+        </TextBlock>
+    </Grid>
+</UserControl>
